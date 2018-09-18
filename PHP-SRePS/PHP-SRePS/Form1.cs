@@ -16,5 +16,11 @@ namespace PHP_SRePS
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new formAdd().Show();
+            this.Hide();
+        }
     }
 }
