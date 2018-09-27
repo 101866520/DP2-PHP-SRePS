@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Current_Sales_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Current_Sales_UserControl.Designer.cs">
+      <DependentUpon>Current_Sales_UserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dbms.cs" />
     <Compile Include="EditForm.cs">
       <SubType>Form</SubType>
@@ -59,16 +65,59 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HomeUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeUserControl.Designer.cs">
+      <DependentUpon>HomeUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Item.cs" />
     <Compile Include="Prediction.cs" />
+    <Compile Include="PreDiction_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PreDiction_UserControl.Designer.cs">
+      <DependentUpon>PreDiction_UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecordsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RecordsUserControl.Designer.cs">
+      <DependentUpon>RecordsUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Report_UserControl.Designer.cs">
+      <DependentUpon>Report_UserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sales.cs" />
+    <Compile Include="Stock.cs" />
+    <Compile Include="StockSales.cs" />
+    <Compile Include="Stock_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Stock_UserControl.Designer.cs">
+      <DependentUpon>Stock_UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utitility.cs" />
+    <EmbeddedResource Include="Current_Sales_UserControl.resx">
+      <DependentUpon>Current_Sales_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EditForm.resx">
       <DependentUpon>EditForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeUserControl.resx">
+      <DependentUpon>HomeUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreDiction_UserControl.resx">
+      <DependentUpon>PreDiction_UserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -79,6 +128,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RecordsUserControl.resx">
+      <DependentUpon>RecordsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report_UserControl.resx">
+      <DependentUpon>Report_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock_UserControl.resx">
+      <DependentUpon>Stock_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

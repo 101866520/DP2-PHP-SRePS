@@ -30,212 +30,169 @@ namespace PHP_SRePS
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.ProductNameTxt = new System.Windows.Forms.TextBox();
-            this.ProductNOTxt = new System.Windows.Forms.TextBox();
-            this.ProductPriceTxt = new System.Windows.Forms.TextBox();
-            this.ProductQuantityTxt = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.dataGridview = new System.Windows.Forms.DataGridView();
-            this.Reset = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.label6 = new System.Windows.Forms.Label();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridview)).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.prediction_button = new System.Windows.Forms.Button();
+            this.scrolPanel = new System.Windows.Forms.Panel();
+            this.previously_sold_record_button = new System.Windows.Forms.Button();
+            this.reports_button = new System.Windows.Forms.Button();
+            this.stock_button = new System.Windows.Forms.Button();
+            this.current_sales_button = new System.Windows.Forms.Button();
+            this.home_button = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.user_control_container_panel = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // panel1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 31);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 19);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Product NO";
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.panel1.Controls.Add(this.prediction_button);
+            this.panel1.Controls.Add(this.scrolPanel);
+            this.panel1.Controls.Add(this.previously_sold_record_button);
+            this.panel1.Controls.Add(this.reports_button);
+            this.panel1.Controls.Add(this.stock_button);
+            this.panel1.Controls.Add(this.current_sales_button);
+            this.panel1.Controls.Add(this.home_button);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(202, 772);
+            this.panel1.TabIndex = 22;
             // 
-            // label2
+            // prediction_button
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 329);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 19);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Product Name";
+            this.prediction_button.FlatAppearance.BorderSize = 0;
+            this.prediction_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.prediction_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.prediction_button.ForeColor = System.Drawing.Color.Transparent;
+            this.prediction_button.Location = new System.Drawing.Point(39, 620);
+            this.prediction_button.Name = "prediction_button";
+            this.prediction_button.Size = new System.Drawing.Size(163, 48);
+            this.prediction_button.TabIndex = 25;
+            this.prediction_button.Text = "Prediction";
+            this.prediction_button.UseVisualStyleBackColor = true;
+            this.prediction_button.Click += new System.EventHandler(this.prediction_button_Click);
             // 
-            // label3
+            // scrolPanel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 104);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 19);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Purchase Date";
+            this.scrolPanel.BackColor = System.Drawing.Color.Red;
+            this.scrolPanel.Location = new System.Drawing.Point(0, 110);
+            this.scrolPanel.Name = "scrolPanel";
+            this.scrolPanel.Size = new System.Drawing.Size(10, 48);
+            this.scrolPanel.TabIndex = 25;
             // 
-            // label4
+            // previously_sold_record_button
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 250);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 19);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Product Price";
+            this.previously_sold_record_button.FlatAppearance.BorderSize = 0;
+            this.previously_sold_record_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.previously_sold_record_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.previously_sold_record_button.ForeColor = System.Drawing.Color.Transparent;
+            this.previously_sold_record_button.Location = new System.Drawing.Point(39, 527);
+            this.previously_sold_record_button.Name = "previously_sold_record_button";
+            this.previously_sold_record_button.Size = new System.Drawing.Size(163, 48);
+            this.previously_sold_record_button.TabIndex = 4;
+            this.previously_sold_record_button.Text = "Records";
+            this.previously_sold_record_button.UseVisualStyleBackColor = true;
+            this.previously_sold_record_button.Click += new System.EventHandler(this.previously_sold_record_button_Click);
             // 
-            // label5
+            // reports_button
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(2, 176);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(128, 19);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Product Quantity";
+            this.reports_button.FlatAppearance.BorderSize = 0;
+            this.reports_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.reports_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.reports_button.ForeColor = System.Drawing.Color.Transparent;
+            this.reports_button.Location = new System.Drawing.Point(39, 417);
+            this.reports_button.Name = "reports_button";
+            this.reports_button.Size = new System.Drawing.Size(163, 48);
+            this.reports_button.TabIndex = 3;
+            this.reports_button.Text = "Reports";
+            this.reports_button.UseVisualStyleBackColor = true;
+            this.reports_button.Click += new System.EventHandler(this.reports_button_Click);
             // 
-            // ProductNameTxt
+            // stock_button
             // 
-            this.ProductNameTxt.Location = new System.Drawing.Point(134, 321);
-            this.ProductNameTxt.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.ProductNameTxt.Name = "ProductNameTxt";
-            this.ProductNameTxt.Size = new System.Drawing.Size(279, 27);
-            this.ProductNameTxt.TabIndex = 8;
+            this.stock_button.FlatAppearance.BorderSize = 0;
+            this.stock_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.stock_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.stock_button.ForeColor = System.Drawing.Color.Transparent;
+            this.stock_button.Location = new System.Drawing.Point(39, 313);
+            this.stock_button.Name = "stock_button";
+            this.stock_button.Size = new System.Drawing.Size(163, 48);
+            this.stock_button.TabIndex = 2;
+            this.stock_button.Text = "Stock";
+            this.stock_button.UseVisualStyleBackColor = true;
+            this.stock_button.Click += new System.EventHandler(this.stock_button_Click);
             // 
-            // ProductNOTxt
+            // current_sales_button
             // 
-            this.ProductNOTxt.Location = new System.Drawing.Point(134, 23);
-            this.ProductNOTxt.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.ProductNOTxt.Name = "ProductNOTxt";
-            this.ProductNOTxt.Size = new System.Drawing.Size(279, 27);
-            this.ProductNOTxt.TabIndex = 7;
+            this.current_sales_button.FlatAppearance.BorderSize = 0;
+            this.current_sales_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.current_sales_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.current_sales_button.ForeColor = System.Drawing.Color.Transparent;
+            this.current_sales_button.Location = new System.Drawing.Point(39, 204);
+            this.current_sales_button.Name = "current_sales_button";
+            this.current_sales_button.Size = new System.Drawing.Size(163, 48);
+            this.current_sales_button.TabIndex = 1;
+            this.current_sales_button.Text = "Sale";
+            this.current_sales_button.UseVisualStyleBackColor = true;
+            this.current_sales_button.Click += new System.EventHandler(this.current_sales_button_Click);
             // 
-            // ProductPriceTxt
+            // home_button
             // 
-            this.ProductPriceTxt.Location = new System.Drawing.Point(134, 242);
-            this.ProductPriceTxt.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.ProductPriceTxt.Name = "ProductPriceTxt";
-            this.ProductPriceTxt.Size = new System.Drawing.Size(279, 27);
-            this.ProductPriceTxt.TabIndex = 10;
+            this.home_button.FlatAppearance.BorderSize = 0;
+            this.home_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.home_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.home_button.ForeColor = System.Drawing.Color.Transparent;
+            this.home_button.Location = new System.Drawing.Point(37, 110);
+            this.home_button.Name = "home_button";
+            this.home_button.Size = new System.Drawing.Size(163, 48);
+            this.home_button.TabIndex = 0;
+            this.home_button.Text = "Home";
+            this.home_button.UseVisualStyleBackColor = true;
+            this.home_button.Click += new System.EventHandler(this.home_button_Click);
             // 
-            // ProductQuantityTxt
+            // panel2
             // 
-            this.ProductQuantityTxt.Location = new System.Drawing.Point(134, 168);
-            this.ProductQuantityTxt.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.ProductQuantityTxt.Name = "ProductQuantityTxt";
-            this.ProductQuantityTxt.Size = new System.Drawing.Size(279, 27);
-            this.ProductQuantityTxt.TabIndex = 11;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.ForeColor = System.Drawing.Color.DarkRed;
+            this.panel2.Location = new System.Drawing.Point(202, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(936, 17);
+            this.panel2.TabIndex = 23;
             // 
-            // button1
+            // panel3
             // 
-            this.button1.Location = new System.Drawing.Point(6, 453);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(178, 42);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.submit_Click);
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(5)))), ((int)(((byte)(40)))));
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel3.Controls.Add(this.pictureBox1);
+            this.panel3.Location = new System.Drawing.Point(202, 3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(115, 120);
+            this.panel3.TabIndex = 24;
             // 
-            // button2
+            // user_control_container_panel
             // 
-            this.button2.Location = new System.Drawing.Point(957, 665);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(155, 36);
-            this.button2.TabIndex = 13;
-            this.button2.Text = "Display Data";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.view_Click);
+            this.user_control_container_panel.Location = new System.Drawing.Point(202, 122);
+            this.user_control_container_panel.Name = "user_control_container_panel";
+            this.user_control_container_panel.Size = new System.Drawing.Size(936, 650);
+            this.user_control_container_panel.TabIndex = 30;
             // 
-            // dataGridview
+            // pictureBox1
             // 
-            this.dataGridview.AllowUserToAddRows = false;
-            this.dataGridview.AllowUserToDeleteRows = false;
-            this.dataGridview.AllowUserToResizeColumns = false;
-            this.dataGridview.AllowUserToResizeRows = false;
-            this.dataGridview.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridview.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.dataGridview.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridview.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridview.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridview.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnKeystroke;
-            this.dataGridview.Location = new System.Drawing.Point(434, 13);
-            this.dataGridview.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.dataGridview.MultiSelect = false;
-            this.dataGridview.Name = "dataGridview";
-            this.dataGridview.ReadOnly = true;
-            this.dataGridview.Size = new System.Drawing.Size(688, 492);
-            this.dataGridview.TabIndex = 14;
-            this.dataGridview.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridview_CellContentClick);
-            // 
-            // Reset
-            // 
-            this.Reset.Location = new System.Drawing.Point(203, 453);
-            this.Reset.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Reset.Name = "Reset";
-            this.Reset.Size = new System.Drawing.Size(182, 42);
-            this.Reset.TabIndex = 15;
-            this.Reset.Text = "Reset Form";
-            this.Reset.UseVisualStyleBackColor = true;
-            this.Reset.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(726, 668);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 27);
-            this.dateTimePicker1.TabIndex = 16;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(134, 104);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(279, 27);
-            this.dateTimePicker2.TabIndex = 17;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(664, 674);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(25, 19);
-            this.label6.TabIndex = 18;
-            this.label6.Text = "To";
-            // 
-            // dateTimePicker3
-            // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(434, 668);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(279, 27);
-            this.dateTimePicker3.TabIndex = 19;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(430, 646);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(416, 19);
-            this.label7.TabIndex = 20;
-            this.label7.Text = "Set a Date range and click Display data button to view Data";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(430, 509);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(328, 19);
-            this.label8.TabIndex = 21;
-            this.label8.Text = "Select one from any  of the above rows to edit";
-            this.label8.Visible = false;
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(102, 104);
+            this.pictureBox1.TabIndex = 31;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -243,59 +200,36 @@ namespace PHP_SRePS
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1138, 772);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.dateTimePicker3);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.Reset);
-            this.Controls.Add(this.dataGridview);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.ProductNOTxt);
-            this.Controls.Add(this.ProductNameTxt);
-            this.Controls.Add(this.ProductPriceTxt);
-            this.Controls.Add(this.ProductQuantityTxt);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.user_control_container_panel);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Black;
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "Form1";
             this.Text = "Form1";
-            //this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridview)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         
 
         #endregion
-
-        public System.Windows.Forms.Label label1;
-        public System.Windows.Forms.Label label2;
-        public System.Windows.Forms.Label label3;
-        public System.Windows.Forms.Label label4;
-        public System.Windows.Forms.Label label5;
-        public System.Windows.Forms.TextBox ProductNOTxt;
-        public System.Windows.Forms.TextBox ProductNameTxt;
-        public System.Windows.Forms.TextBox ProductPriceTxt;
-        public System.Windows.Forms.TextBox ProductQuantityTxt;
-        public System.Windows.Forms.Button button1;
-        public System.Windows.Forms.Button button2;
-        private System.Windows.Forms.DataGridView dataGridview;
-        private System.Windows.Forms.Button Reset;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button stock_button;
+        private System.Windows.Forms.Button current_sales_button;
+        private System.Windows.Forms.Button home_button;
+        private System.Windows.Forms.Button previously_sold_record_button;
+        private System.Windows.Forms.Button reports_button;
+        private System.Windows.Forms.Panel scrolPanel;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button prediction_button;
+        private System.Windows.Forms.Panel user_control_container_panel;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
