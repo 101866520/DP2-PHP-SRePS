@@ -30,7 +30,7 @@ namespace PHP_SRePS
 
         public  string DisplayValues(string startDate, string endDate)
         {
-            string viewString = @"select * from Product where product_purchased_date between '" + startDate + "'and'" + endDate +"'" ;
+            string viewString = @"select * from sale where product_purchased_date between '" + startDate + "'and'" + endDate +"'" ;
             return viewString;
         }
     }
