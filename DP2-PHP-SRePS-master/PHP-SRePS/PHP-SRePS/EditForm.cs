@@ -16,6 +16,8 @@ namespace PHP_SRePS
     {
         Dbms dbmsInstance = Dbms.dbmsInstance();
         Sales salesInstance = Sales.SalesInstance();
+        Utitility utitility = Utitility.UtitilityInstance();
+             
         Prediction predictionInstance = Prediction.PredictionInstance();
         public EditForm()
         {
@@ -44,14 +46,13 @@ namespace PHP_SRePS
         private void button1_Click(object sender, EventArgs e)
         {
             Item item = RetreivingData();
-            SqlConnection con = dbmsInstance.SettingUPConnectionWithDataBase();
-            con.Open();
             string alterString = salesInstance.AlterDetails(item);
-            SqlCommand cmd = new SqlCommand(alterString, con);
-            object o = cmd.ExecuteNonQuery();
-            MessageBox.Show(" :Record has been Updated");
-            con.Close();
+            SqlConnection con = utitility.GetSqlConnection();
+            con.Open();
+            utitility.ExecuteingAQuery(alterString,item, con);
             this.Close();
+            con.Close();
+            MessageBox.Show(" :Record has been Updated");
 
         }
        
@@ -65,15 +66,13 @@ namespace PHP_SRePS
         private void button2_Click(object sender, EventArgs e)
         {
             Item item = RetreivingData();
-
-            SqlConnection con = dbmsInstance.SettingUPConnectionWithDataBase();
-            con.Open();
             string deleteString = salesInstance.DeleteData(item);
-            SqlCommand cmd = new SqlCommand(deleteString, con);
-            object o = cmd.ExecuteNonQuery();
-            MessageBox.Show(" :Record has been deleted");
-            con.Close();
+            SqlConnection con = utitility.GetSqlConnection();
+            con.Open();
+            utitility.ExecuteingAQuery(deleteString, item, con);           
             this.Close();
+            con.Close();
+            MessageBox.Show(" :Record has been deleted");
         }
 
       
