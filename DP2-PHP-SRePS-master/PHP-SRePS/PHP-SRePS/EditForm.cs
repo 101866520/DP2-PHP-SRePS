@@ -50,9 +50,8 @@ namespace PHP_SRePS
             SqlConnection con = utitility.GetSqlConnection();
             con.Open();
             utitility.ExecuteingAQuery(alterString,item, con);
-            this.Close();
             con.Close();
-            MessageBox.Show(" :Record has been Updated");
+            timer1.Start();
 
         }
        
@@ -69,12 +68,30 @@ namespace PHP_SRePS
             string deleteString = salesInstance.DeleteData(item);
             SqlConnection con = utitility.GetSqlConnection();
             con.Open();
-            utitility.ExecuteingAQuery(deleteString, item, con);           
-            this.Close();
+            utitility.ExecuteingAQuery(deleteString, item, con);          
             con.Close();
-            MessageBox.Show(" :Record has been deleted");
+            timer1.Start();
+
+
+        }
+        /// <summary>
+        /// fading effect
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (this.Opacity > 0.0)
+            {
+                this.Opacity -= 0.035;
+            }
+            else
+            {
+                timer1.Stop();
+                this.Close();
+                MessageBox.Show(" file has been Updated Sucessfully");
+            }
         }
 
-      
     }
 }
