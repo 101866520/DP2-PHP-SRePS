@@ -37,22 +37,6 @@ namespace PHP_SRePS
             return item;
         }
         /// <summary>
-        /// it check if stock exist or not 
-        /// returns bool based on condition
-        /// </summary>
-        /// <param name="con">sqlconnection</param>
-        /// <param name="countString"> string to perform querry</param>
-        /// <param name="item"> item object</param>
-        /// <returns></returns>
-        private bool StockExist(SqlConnection con, string countString, Item item)
-        {
-            if (utitility.PrimaryKeyCount(item, con, countString) > 0)
-            {
-                return true;
-            }
-            return false;
-        }
-        /// <summary>
         /// it will populate the table with pree-existing data from database
         ///
         /// </summary>
@@ -86,7 +70,7 @@ namespace PHP_SRePS
             SqlConnection con = utitility.GetSqlConnection();
             String countString = salesInstance.CheckingPrimaryKeyForDuplication(item);
             con.Open();
-            if (StockExist(con, countString, item))
+            if (utitility.StockExist(con, countString, item))
             {
                 SeachForProduct(con, item);
             }
@@ -118,7 +102,7 @@ namespace PHP_SRePS
             String countstring = salesInstance.CheckingPrimaryKeyForDuplication(item);
             SqlConnection con = utitility.GetSqlConnection();
             con.Open();
-            if(StockExist(con, countstring, item))
+            if(utitility.StockExist(con, countstring, item))
             {               
                 insertString = salesInstance.AlterDetails(item);
             }

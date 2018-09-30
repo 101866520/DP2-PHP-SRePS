@@ -120,6 +120,22 @@ namespace PHP_SRePS
             }
 
         }
+        /// <summary>
+        /// it check if stock exist or not 
+        /// returns bool based on condition
+        /// </summary>
+        /// <param name="con">sqlconnection</param>
+        /// <param name="countString"> string to perform querry</param>
+        /// <param name="item"> item object</param>
+        /// <returns></returns>
+        public bool StockExist(SqlConnection con, string countString, Item item)
+        {
+            if (PrimaryKeyCount(item, con, countString) > 0)
+            {
+                return true;
+            }
+            return false;
+        }
 
     }
 

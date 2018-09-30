@@ -121,7 +121,7 @@ namespace PHP_SRePS
             editForm.ProductQuantityTxt.Text = rows.Cells["Purchased Qunatity"].Value.ToString();
 
             editForm.dateTimePicker2.Value = Convert.ToDateTime(rows.Cells["Purchased Date"].Value.ToString());
-
+            download_reports_button.Visible = false;
             editForm.Show();
         }
     }
