@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -73,11 +74,11 @@
     </Compile>
     <Compile Include="Item.cs" />
     <Compile Include="Prediction.cs" />
-    <Compile Include="PreDiction_UserControl.cs">
+    <Compile Include="Prediction_UserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="PreDiction_UserControl.Designer.cs">
-      <DependentUpon>PreDiction_UserControl.cs</DependentUpon>
+    <Compile Include="Prediction_UserControl.Designer.cs">
+      <DependentUpon>Prediction_UserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
@@ -116,8 +117,8 @@
     <EmbeddedResource Include="HomeUserControl.resx">
       <DependentUpon>HomeUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PreDiction_UserControl.resx">
-      <DependentUpon>PreDiction_UserControl.cs</DependentUpon>
+    <EmbeddedResource Include="Prediction_UserControl.resx">
+      <DependentUpon>Prediction_UserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

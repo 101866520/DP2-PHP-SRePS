@@ -42,7 +42,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(3, 21);
+            this.label7.Location = new System.Drawing.Point(15, 17);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(487, 20);
             this.label7.TabIndex = 25;
@@ -51,7 +51,7 @@
             // dateTimePicker3
             // 
             this.dateTimePicker3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker3.Location = new System.Drawing.Point(7, 50);
+            this.dateTimePicker3.Location = new System.Drawing.Point(19, 56);
             this.dateTimePicker3.Name = "dateTimePicker3";
             this.dateTimePicker3.Size = new System.Drawing.Size(252, 22);
             this.dateTimePicker3.TabIndex = 24;
@@ -60,7 +60,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(266, 52);
+            this.label6.Location = new System.Drawing.Point(278, 58);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(27, 16);
             this.label6.TabIndex = 23;
@@ -69,7 +69,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(299, 50);
+            this.dateTimePicker1.Location = new System.Drawing.Point(311, 56);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(251, 22);
             this.dateTimePicker1.TabIndex = 22;
@@ -77,7 +77,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(555, 48);
+            this.button2.Location = new System.Drawing.Point(567, 59);
             this.button2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(131, 20);
@@ -103,14 +103,14 @@
             this.dataGridview.MultiSelect = false;
             this.dataGridview.Name = "dataGridview";
             this.dataGridview.ReadOnly = true;
-            this.dataGridview.Size = new System.Drawing.Size(620, 270);
+            this.dataGridview.Size = new System.Drawing.Size(679, 270);
             this.dataGridview.TabIndex = 26;
             this.dataGridview.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridview_CellContentDoubleClick);
             // 
             // download_reports_button
             // 
             this.download_reports_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.download_reports_button.Location = new System.Drawing.Point(508, 378);
+            this.download_reports_button.Location = new System.Drawing.Point(567, 392);
             this.download_reports_button.Name = "download_reports_button";
             this.download_reports_button.Size = new System.Drawing.Size(131, 24);
             this.download_reports_button.TabIndex = 27;

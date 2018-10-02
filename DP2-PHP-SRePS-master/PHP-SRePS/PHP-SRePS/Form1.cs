@@ -20,7 +20,7 @@ namespace PHP_SRePS
         HomeUserControl homeUserControl = new HomeUserControl();
         Stock_UserControl stock_UserControl = new Stock_UserControl();
         Report_UserControl report_UserControl = new Report_UserControl();
-        PreDiction_UserControl preDiction_UserControl = new PreDiction_UserControl();
+        Prediction_UserControl preDiction_UserControl = new Prediction_UserControl();
         RecordsUserControl recordsUserControl = new RecordsUserControl();
 
         public Form1()

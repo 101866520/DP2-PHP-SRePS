@@ -48,56 +48,56 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 31);
+            this.label1.Location = new System.Drawing.Point(11, 29);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 19);
+            this.label1.Size = new System.Drawing.Size(92, 19);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Product NO";
+            this.label1.Text = "Product No:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 329);
+            this.label2.Location = new System.Drawing.Point(11, 329);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 19);
+            this.label2.Size = new System.Drawing.Size(112, 19);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Product Name";
+            this.label2.Text = "Product Name:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 104);
+            this.label3.Location = new System.Drawing.Point(11, 104);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 19);
+            this.label3.Size = new System.Drawing.Size(111, 19);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Purchase Date";
+            this.label3.Text = "Purchase Date:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 250);
+            this.label4.Location = new System.Drawing.Point(11, 254);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 19);
+            this.label4.Size = new System.Drawing.Size(106, 19);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Product Price";
+            this.label4.Text = "Product Price:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(2, 176);
+            this.label5.Location = new System.Drawing.Point(11, 179);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(128, 19);
+            this.label5.Size = new System.Drawing.Size(132, 19);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Product Quantity";
+            this.label5.Text = "Product Quantity:";
             // 
             // ProductNameTxt
             // 
-            this.ProductNameTxt.Location = new System.Drawing.Point(134, 321);
+            this.ProductNameTxt.Location = new System.Drawing.Point(145, 325);
             this.ProductNameTxt.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.ProductNameTxt.Name = "ProductNameTxt";
             this.ProductNameTxt.Size = new System.Drawing.Size(279, 27);
@@ -105,7 +105,7 @@
             // 
             // ProductNOTxt
             // 
-            this.ProductNOTxt.Location = new System.Drawing.Point(134, 23);
+            this.ProductNOTxt.Location = new System.Drawing.Point(145, 25);
             this.ProductNOTxt.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.ProductNOTxt.Name = "ProductNOTxt";
             this.ProductNOTxt.ReadOnly = true;
@@ -114,7 +114,7 @@
             // 
             // ProductPriceTxt
             // 
-            this.ProductPriceTxt.Location = new System.Drawing.Point(134, 242);
+            this.ProductPriceTxt.Location = new System.Drawing.Point(145, 250);
             this.ProductPriceTxt.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.ProductPriceTxt.Name = "ProductPriceTxt";
             this.ProductPriceTxt.Size = new System.Drawing.Size(279, 27);
@@ -122,7 +122,7 @@
             // 
             // ProductQuantityTxt
             // 
-            this.ProductQuantityTxt.Location = new System.Drawing.Point(134, 168);
+            this.ProductQuantityTxt.Location = new System.Drawing.Point(145, 175);
             this.ProductQuantityTxt.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.ProductQuantityTxt.Name = "ProductQuantityTxt";
             this.ProductQuantityTxt.Size = new System.Drawing.Size(279, 27);
@@ -130,7 +130,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(94, 454);
+            this.button1.Location = new System.Drawing.Point(94, 394);
             this.button1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(124, 35);
@@ -141,14 +141,14 @@
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(134, 104);
+            this.dateTimePicker2.Location = new System.Drawing.Point(145, 100);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(279, 27);
             this.dateTimePicker2.TabIndex = 17;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(267, 454);
+            this.button2.Location = new System.Drawing.Point(267, 394);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(119, 35);
             this.button2.TabIndex = 18;
@@ -164,7 +164,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(495, 530);
+            this.ClientSize = new System.Drawing.Size(477, 458);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ProductNOTxt);
