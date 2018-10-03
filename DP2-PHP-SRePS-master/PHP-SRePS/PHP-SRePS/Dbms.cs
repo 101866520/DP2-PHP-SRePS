@@ -28,7 +28,7 @@ namespace PHP_SRePS
         /// <returns></returns>
         public SqlConnection SettingUPConnectionWithDataBase()
         {
-            SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Charn\\Desktop\\DP2-PHP-SRePS-master\\PHP-SRePS\\PHP-SRePS\\Database1.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\golde\\OneDrive\\Desktop\\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\\DP2-PHP-SRePS-master\\PHP-SRePS\\PHP-SRePS\\Database1.mdf;Integrated Security=True");
             return con;
         }
     }

@@ -137,8 +137,8 @@ namespace PHP_SRePS
             Item tempItem = new Item();
 
             tempItem.ItemNo = Convert.ToInt32(reader.GetValue(0).ToString());
-            tempItem.ItemName = reader.GetValue(2).ToString();
-            tempItem.ItemQuantity = Convert.ToInt32(reader.GetValue(1).ToString());
+            tempItem.ItemName = reader.GetValue(1).ToString();
+            tempItem.ItemQuantity = Convert.ToInt32(reader.GetValue(2).ToString());
 
             return tempItem;
 
