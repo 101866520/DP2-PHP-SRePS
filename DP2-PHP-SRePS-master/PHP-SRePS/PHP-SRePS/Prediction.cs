@@ -24,8 +24,12 @@ namespace PHP_SRePS
             }
             return prediction;
         }
-          
-    
+
+        public string QueryforGivenNameAndDateRange(string startDate, string endDate, String name)
+        {
+            string viewString = @"select * from sale where product_name ='" + name + "' and product_purchased_date between '" + startDate + "'and'" + endDate + "'";
+            return viewString;
+        }
 
 
         public  string DisplayValues(string startDate, string endDate)
