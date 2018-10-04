@@ -43,3 +43,41 @@ C:\Users\charn\Desktop\experiment\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\D
 C:\Users\charn\Desktop\experiment\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP-SRePS.csproj.CoreCompileInputs.cache
 C:\Users\charn\Desktop\experiment\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP-SRePS.exe
 C:\Users\charn\Desktop\experiment\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP-SRePS.pdb
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP-SRePS.csprojAssemblyReference.cache
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP_SRePS.Current_Sales_UserControl.resources
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP_SRePS.EditForm.resources
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP_SRePS.Form1.resources
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP_SRePS.HomeUserControl.resources
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP_SRePS.PreDiction_UserControl.resources
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP_SRePS.Properties.Resources.resources
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP_SRePS.RecordsUserControl.resources
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP_SRePS.Report_UserControl.resources
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP_SRePS.Stock_UserControl.resources
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP-SRePS.csproj.GenerateResource.cache
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP-SRePS.csproj.CoreCompileInputs.cache
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP-SRePS.exe
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP-SRePS.pdb
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\bin\Debug\PHP-SRePS.exe.config
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\bin\Debug\PHP-SRePS.exe
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\bin\Debug\PHP-SRePS.pdb
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\bin\Debug\Database1.mdf
+C:\Users\golde\OneDrive\Desktop\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\bin\Debug\Database1_log.ldf
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\bin\Debug\Database1.mdf
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\bin\Debug\Database1_log.ldf
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\bin\Debug\PHP-SRePS.exe.config
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\bin\Debug\PHP-SRePS.exe
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\bin\Debug\PHP-SRePS.pdb
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP-SRePS.csprojAssemblyReference.cache
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP_SRePS.Current_Sales_UserControl.resources
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP_SRePS.EditForm.resources
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP_SRePS.Form1.resources
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP_SRePS.HomeUserControl.resources
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP_SRePS.PreDiction_UserControl.resources
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP_SRePS.Properties.Resources.resources
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP_SRePS.RecordsUserControl.resources
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP_SRePS.Report_UserControl.resources
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP_SRePS.Stock_UserControl.resources
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP-SRePS.csproj.GenerateResource.cache
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP-SRePS.csproj.CoreCompileInputs.cache
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP-SRePS.exe
+F:\Code\Development project 2\DP2-PHP-SRePS-101811258-improved-prediciton-Ui-1\DP2-PHP-SRePS-master\PHP-SRePS\PHP-SRePS\obj\Debug\PHP-SRePS.pdb
