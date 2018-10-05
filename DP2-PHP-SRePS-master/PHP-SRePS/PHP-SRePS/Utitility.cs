@@ -70,22 +70,37 @@ namespace PHP_SRePS
         /// this method is used to download data to textfile
         /// </summary>
         /// <param name="dataGridview"></param>
-        public void DownloadingDataAsATextFile(DataGridView dataGridview)
+        public void DownloadingDataAsATextFile(DataGridView dataGridview, string filename)
         {
-            TextWriter writer = new StreamWriter(@"C:\Users\Charn\Desktop\Reports.txt");          
-;            for (int i =0; i<dataGridview.RowCount; i++)
+            string filepath = "C:\\Users\\golde\\OneDrive\\Desktop\\" + filename + ".csv";
+            StringBuilder sbOutput = new StringBuilder();
+
+            List<List<string>> rowValue = new List<List<string>>();
+
+            foreach (DataGridViewRow dataRow in dataGridview.Rows)
             {
-                for (int j=0; j<dataGridview.Columns.Count; j++)
+                List<string> temp = new List<string>();
+                foreach (DataGridViewCell data in dataRow.Cells)
                 {
-                    writer.Write( dataGridview.Rows[i].Cells[j].Value.ToString() + "\t\t" +"|");
+                    if (data.Value == null)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        temp.Add(data.Value.ToString());
+                    }
                 }
-                writer.WriteLine("");
-                writer.WriteLine("-----------------------------------------------------------------------------------------------------");
+                rowValue.Add(temp);
             }
-            writer.WriteLine(" Format of the file Columns are  following");
-            writer.Write("(1)Product Id followed by (2)Product Name followed by (3)Purchase Date, followed by (4)Price and followed by (5)Purchased Quanitty");
-            writer.Close();
-            MessageBox.Show("Reports file has been saved on Desktop");
+
+            for (int i = 0; i < rowValue.Count(); i++)
+            {
+                sbOutput.AppendLine(string.Join(",", rowValue[i]));
+            }
+
+            File.WriteAllText(filepath, sbOutput.ToString());
+            MessageBox.Show("File has been saved on Desktop");
 
         }
         /// <summary>

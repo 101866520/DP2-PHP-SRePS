@@ -89,5 +89,12 @@ namespace PHP_SRePS
             string viewString = @"select * from sale where product_no = '" + item.ItemNo + "'";
             return viewString;
         }
+
+        public String GetProductNames()
+        {
+            string viewString = @"select * from sale";
+            return viewString;
+        }
+            
     }
 }

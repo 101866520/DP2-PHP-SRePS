@@ -97,7 +97,7 @@ namespace PHP_SRePS
         /// <param name="e"></param>
         private void download_reports_button_Click(object sender, EventArgs e)
         {
-            utitility.DownloadingDataAsATextFile(dataGridview);
+            utitility.DownloadingDataAsATextFile(dataGridview, "Reports");
             download_reports_button.Visible = false;
         }
         /// <summary>
